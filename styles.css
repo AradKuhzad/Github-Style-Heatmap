@@ -28,3 +28,9 @@ body {
     border-radius: 6px;
     width: 1000px;
 */
+  
+#heatmap {
+    display: grid;
+    grid-template-columns: repeat(53, 12px);
+    gap: 3px;
+}
