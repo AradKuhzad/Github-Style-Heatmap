@@ -27,3 +27,6 @@ function renderHeatmap(activities) {
     const heatmap = document.getElementById("heatmap");
     heatmap.innerHTML = "";
 
+      for (let i = 0; i < activities.length; i++) {
+        const item = activities[i];
+
