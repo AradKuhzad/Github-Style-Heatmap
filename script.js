@@ -49,3 +49,5 @@ function renderHeatmap(activities) {
 const result = generateData();
 
 const activities = result.activities;
+
+document.getElementById("totalDays").innerText =
