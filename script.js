@@ -51,3 +51,6 @@ const result = generateData();
 const activities = result.activities;
 
 document.getElementById("totalDays").innerText =
+    `Total days generated: ${activities.length}`;
+
+if (result.isInactive) {
