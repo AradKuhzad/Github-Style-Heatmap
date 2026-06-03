@@ -20,3 +20,6 @@ function generateData() {
                 break;
              }
     }
+    return { activities, isInactive };
+}
+
