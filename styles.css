@@ -34,3 +34,8 @@ body {
     grid-template-columns: repeat(53, 12px);
     gap: 3px;
 }
+
+.cell {
+    width: 10px;
+    height: 10px;
+}
