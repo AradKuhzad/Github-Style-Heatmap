@@ -46,3 +46,6 @@ function renderHeatmap(activities) {
     }
 }
 
+const result = generateData();
+
+const activities = result.activities;
