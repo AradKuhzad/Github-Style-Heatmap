@@ -13,3 +13,11 @@ body {
     justify-content: center;
     align-items: center;
     gap: 4px;
+
+
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 10px 5px;
+    gap: 4px;
