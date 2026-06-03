@@ -15,3 +15,8 @@ function generateData() {
                 inactiveStreak = 0;
              }
 
+             if (inactiveStreak === 7) {
+                isInactive = true;
+                break;
+             }
+    }
