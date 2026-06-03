@@ -7,3 +7,7 @@ function generateData() {
         activities.push({
             day: day,
              score: score});
+
+             if (score === 0) {
+                inactiveStreak++;
+             }
