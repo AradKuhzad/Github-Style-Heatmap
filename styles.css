@@ -42,4 +42,7 @@ body {
 }
 
 #totalDays {
+    font-size: 16px;
+    color: rgb(255, 246, 246);
+    text-align: left;
 }
