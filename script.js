@@ -23,3 +23,7 @@ function generateData() {
     return { activities, isInactive };
 }
 
+function renderHeatmap(activities) {
+    const heatmap = document.getElementById("heatmap");
+    heatmap.innerHTML = "";
+
