@@ -42,3 +42,7 @@ function renderHeatmap(activities) {
         } else {
             cell.style.backgroundColor = "#216e39";
         }
+        heatmap.appendChild(cell);
+    }
+}
+
