@@ -58,3 +58,4 @@ if (result.isInactive) {
         "User became inactive 😴";
 }
 
+renderHeatmap(activities);
