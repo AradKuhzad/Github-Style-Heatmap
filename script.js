@@ -11,3 +11,7 @@ function generateData() {
              if (score === 0) {
                 inactiveStreak++;
              }
+             else {
+                inactiveStreak = 0;
+             }
+
