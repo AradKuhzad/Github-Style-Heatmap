@@ -40,3 +40,5 @@ function renderHeatmap(activities) {
         } else if (item.score <= 6) {
             cell.style.backgroundColor = "#40c463";
         } else {
+            cell.style.backgroundColor = "#216e39";
+        }
