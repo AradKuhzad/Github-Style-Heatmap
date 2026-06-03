@@ -56,3 +56,5 @@ document.getElementById("totalDays").innerText =
 if (result.isInactive) {
     document.getElementById("warning").innerText =
         "User became inactive 😴";
+}
+
