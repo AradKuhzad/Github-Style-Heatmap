@@ -30,3 +30,6 @@ function renderHeatmap(activities) {
       for (let i = 0; i < activities.length; i++) {
         const item = activities[i];
 
+        const cell = document.createElement("div");
+        cell.classList.add("cell");
+
