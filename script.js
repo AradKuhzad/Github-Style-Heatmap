@@ -33,3 +33,8 @@ function renderHeatmap(activities) {
         const cell = document.createElement("div");
         cell.classList.add("cell");
 
+        if (item.score === 0) {
+            cell.style.backgroundColor = "#ebedf0";
+        } else if (item.score <= 3) {
+            cell.style.backgroundColor = "#9be9a8";
+        } else if (item.score <= 6) {
