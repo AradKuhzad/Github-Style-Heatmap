@@ -16,7 +16,7 @@ A simple GitHub-style activity heatmap built with vanilla JavaScript.
   - break
   - continue
 
-## Technologies
+## Languages
 
 - HTML
 - CSS
