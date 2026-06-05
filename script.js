@@ -59,3 +59,4 @@ if (result.isInactive) {
 }
 
 renderHeatmap(activities);
+
