@@ -15,7 +15,7 @@ function generateData() {
                 inactiveStreak = 0;
              }
 
-             if (inactiveStreak === 7) {
+             if (inactiveStreak === 3) {
                 isInactive = true;
                 break;
              }
